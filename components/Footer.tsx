@@ -64,7 +64,7 @@ const Footer: React.FC<FooterProps> = ({
         <div className="mt-8 pt-8 border-t border-gray-200 space-y-4">
           <p className="text-xs">Car Accident Support is a trading style of Gabi Taji. ABN: 91 390 400 411. Registered address: U 2b, 61-73 Parramatta Road, Five Dock, NSW, 2046</p>
           <p className="text-xs">Disclaimer: Car Accident Support is committed to delivering the best possible service and support while ensuring you have all the information needed to make informed decisions. Please note that while we outline the benefits of our services, the availability of these benefits may vary based on the specifics of your accident. In some cases, especially where fault is determined, certain advantages may be limited. Our aim is to support you every step of the way and help you navigate any challenges confidently.</p>
-          <p className="text-xs">© 2025 Car Accident Support. All rights reserved.</p>
+          <p className="text-xs">© {currentYear} Car Accident Support. All rights reserved.</p>
         </div>
       </footer>
     </>

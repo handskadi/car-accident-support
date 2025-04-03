@@ -75,7 +75,7 @@ export default function HomePage() {
             />
           </div>
           <div className="lg:w-1/2">
-            <h2 className="text-base font-semibold mb-4">We'll need:</h2>
+            <h2 className="text-base font-semibold mb-4">We&apos;ll need:</h2>
             <ul className="list-disc pl-5 text-base">
 
               <li>Your name and vehicle registration number.</li>
@@ -129,7 +129,7 @@ export default function HomePage() {
           <div className="lg:w-1/2">
             <h2 className="text-base font-semibold mb-4">Our dedicated team will:</h2>
             <ul className="list-disc mb-6 pl-5 text-base">
-              <li>Assess the Damage: Provide a thorough evaluation of your vehicle's condition.​</li>
+              <li>Assess the Damage: Provide a thorough evaluation of your vehicle&apos;s condition.​</li>
               <li>Coordinate Repairs: Arrange for necessary repairs at our specialist repair centre,
                 equipped with state-of-the-art machinery and staffed by experienced technicians.​</li>
               <li>Ensure Quality: Implement exhaustive quality assurance measures to guarantee your
