@@ -34,7 +34,6 @@ const Footer: React.FC<FooterProps> = ({
       <footer className="w-full bg-white text-sm text-gray-600 px-4 py-8 lg:px-80">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex flex-col gap-4">
-
             <Image
               src="/logo.svg"
               alt="Firths Logo"

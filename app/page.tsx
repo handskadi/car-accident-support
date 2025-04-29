@@ -33,7 +33,7 @@ export default function HomePage() {
       </section>
 
       {/* Call to action */}
-      <section className="flex flex-col items-center justify-center text-center w-full gap-4 px-4 py-6">
+      <section className="flex flex-col items-center justify-center text-center w-full gap-4 px-4 py-6 bg-white">
         <h2 className="text-sm font-bold uppercase">Call us now to report a claim</h2>
         <Link
           href="tel:1300 564 150"
@@ -63,7 +63,7 @@ export default function HomePage() {
       </section>
 
       {/* Section 1 */}
-      <section className="w-full px-4 lg:px-80 py-8 ">
+      <section className="w-full px-4 lg:px-80 py-8 bg-white">
         <div className="flex flex-col lg:flex-row items-center gap-10 pt-8 border-t border-gray-200 ">
           <div className="lg:w-1/2">
             <Image
@@ -91,7 +91,7 @@ export default function HomePage() {
       </section>
 
       {/* Section 2 */}
-      <section className="w-full px-4 lg:px-80 py-8 ">
+      <section className="w-full px-4 lg:px-80 py-8 bg-white">
         <div className="flex flex-col lg:flex-row-reverse items-center gap-10 pt-8 border-t border-gray-200 ">
           <div className="lg:w-1/2">
             <Image
@@ -115,7 +115,7 @@ export default function HomePage() {
       </section>
 
       {/* Section 3 */}
-      <section className="w-full px-4 lg:px-80 py-8 ">
+      <section className="w-full px-4 lg:px-80 py-8 bg-white">
         <div className="flex flex-col lg:flex-row items-center gap-10 pt-8 border-t border-gray-200 ">
           <div className="lg:w-1/2">
             <Image
@@ -223,7 +223,7 @@ export default function HomePage() {
       </section>
 
       {/* FAQs */}
-      <section className="flex flex-col w-full px-4 pt-20 pb-8 gap-2 lg:px-80">
+      <section className="flex flex-col w-full px-4 pt-20 pb-8 gap-2 lg:px-80 bg-white">
         <h2 className="text-3xl font-bold text-center pb-3">FAQ</h2>
         {[
           {
@@ -266,7 +266,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Footer Section */}
-      <section className="relative bg-[#103052] w-full mt-4 overflow-hidden text-white">
+      <section className="relative bg-[#103052] w-full  overflow-hidden text-white">
         <div className="absolute w-full bg-white" style={{ borderBottomLeftRadius: '100% 80%', borderBottomRightRadius: '100% 80%' }}>
           <h2 className="text-center text-2xl font-bold py-4 text-black">Car insurance claims</h2>
         </div>
